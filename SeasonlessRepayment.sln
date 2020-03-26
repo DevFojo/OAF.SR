@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonlessRepayment.Web", "src\SeasonlessRepayment.Web\SeasonlessRepayment.Web.csproj", "{64A9676B-E1FB-403E-A66D-E33702C48FE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonlessRepayment.Tests", "src\SeasonlessRepayment.Tests\SeasonlessRepayment.Tests.csproj", "{19EFB1F2-444E-4CE1-B576-6BE04B9C8DFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonlessRepayment.Domain", "src\SeasonlessRepayment.Domain\SeasonlessRepayment.Domain.csproj", "{97F4AB9B-3FEF-49C4-AF5A-367709228F3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonlessRepayment.Data", "src\SeasonlessRepayment.Data\SeasonlessRepayment.Data.csproj", "{0450568E-4B10-4AC9-ADBE-D45DFA3FC064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeasonlessRepayment.Services", "src\SeasonlessRepayment.Services\SeasonlessRepayment.Services.csproj", "{CAD9E346-B9AA-4639-9957-FC89F2EA0D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64A9676B-E1FB-403E-A66D-E33702C48FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64A9676B-E1FB-403E-A66D-E33702C48FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64A9676B-E1FB-403E-A66D-E33702C48FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64A9676B-E1FB-403E-A66D-E33702C48FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EFB1F2-444E-4CE1-B576-6BE04B9C8DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EFB1F2-444E-4CE1-B576-6BE04B9C8DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EFB1F2-444E-4CE1-B576-6BE04B9C8DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EFB1F2-444E-4CE1-B576-6BE04B9C8DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97F4AB9B-3FEF-49C4-AF5A-367709228F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97F4AB9B-3FEF-49C4-AF5A-367709228F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97F4AB9B-3FEF-49C4-AF5A-367709228F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97F4AB9B-3FEF-49C4-AF5A-367709228F3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0450568E-4B10-4AC9-ADBE-D45DFA3FC064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0450568E-4B10-4AC9-ADBE-D45DFA3FC064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0450568E-4B10-4AC9-ADBE-D45DFA3FC064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0450568E-4B10-4AC9-ADBE-D45DFA3FC064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD9E346-B9AA-4639-9957-FC89F2EA0D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD9E346-B9AA-4639-9957-FC89F2EA0D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD9E346-B9AA-4639-9957-FC89F2EA0D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD9E346-B9AA-4639-9957-FC89F2EA0D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

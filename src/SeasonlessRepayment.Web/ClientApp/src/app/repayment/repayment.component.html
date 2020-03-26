@@ -1,0 +1,26 @@
+<h1 id="tableLabel">Repayments</h1>
+
+<p *ngIf="!repayments"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="repayments">
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Customer</th>
+    <th>Season</th>
+    <th>Amount</th>
+    <th>Date</th>
+    <th>ParentID</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let repayment of repayments">
+    <td>{{ repayment.repaymentId }}</td>
+    <td>{{ repayment.customer.name }}</td>
+    <td>{{ repayment.season.name }}</td>
+    <td>{{ repayment.amount }}</td>
+    <td>{{ repayment.date }}</td>
+    <td>{{ repayment.parentId }}</td>
+  </tr>
+  </tbody>
+</table>

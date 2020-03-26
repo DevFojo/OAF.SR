@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\SeasonlessRepayment.Data\SeasonlessRepayment.Data.csproj" />
+      <ProjectReference Include="..\SeasonlessRepayment.Domain\SeasonlessRepayment.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
