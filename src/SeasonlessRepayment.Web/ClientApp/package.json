@@ -26,7 +26,7 @@
     "bootstrap": "^4.4.1",
     "core-js": "^2.6.11",
     "help": "^3.0.2",
-    "jquery": "3.4.1",
+    "jquery": "3.5.0",
     "oidc-client": "^1.10.1",
     "popper.js": "^1.16.1",
     "rxjs": "^6.5.4",
